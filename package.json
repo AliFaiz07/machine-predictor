@@ -13,7 +13,8 @@
   "scripts": {
     "start": "cds-serve",
     "watch-machines": "cds watch --open mp.machines/index.html?sap-ui-xx-viewCache=false --livereload false",
-    "watch-sensors": "cds watch --open mp.sensors/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-sensors": "cds watch --open mp.sensors/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-alerts": "cds watch --open mp.alerts/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "workspaces": [
@@ -21,7 +22,8 @@
   ],
   "sapux": [
     "app/machines",
-    "app/sensors"
+    "app/sensors",
+    "app/alerts"
   ],
   "cds": {
     "requires": {
