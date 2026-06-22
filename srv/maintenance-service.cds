@@ -5,3 +5,5 @@ service MaintenanceService {
     entity SensorReadings     as projection on machinepredictor.SensorReadings;
     entity MaintenanceAlerts  as projection on machinepredictor.MaintenanceAlerts;
 }
+
+annotate MaintenanceService.Machines with @odata.draft.enabled;
