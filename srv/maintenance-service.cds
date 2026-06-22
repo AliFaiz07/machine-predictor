@@ -7,3 +7,4 @@ service MaintenanceService {
 }
 
 annotate MaintenanceService.Machines with @odata.draft.enabled;
+annotate MaintenanceService.SensorReadings with @odata.draft.enabled;

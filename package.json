@@ -10,13 +10,15 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-machines": "cds watch --open mp.machines/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-machines": "cds watch --open mp.machines/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-sensors": "cds watch --open mp.sensors/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "workspaces": [
     "app/*"
   ],
   "sapux": [
-    "app/machines"
+    "app/machines",
+    "app/sensors"
   ]
 }
